@@ -1,0 +1,44 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>Com-Rise</title>
+    <link href="comrise.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet"> 
+</head>
+<body background="https://images.unsplash.com/photo-1506784693919-ef06d93c28d2?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4501e1c9fb53eb2c6c52be4038f53e34&auto=format&fit=crop&w=1350&q=80">
+<h1>Com-Rise</h1>
+<h2>We rise by lifting others!</h2>
+<div class="display-container">
+  <img class="mySlides" src="https://images.unsplash.com/photo-1522600579804-c66aa476298e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=9ee3815bb11d3db17b8c89dcb290974b&auto=format&fit=crop&w=500&q=60" style="width:50%">
+  <img class="mySlides" src="http://www.humanutopia.com/wp-content/uploads/2017/04/Local-Volunteering.jpg" style="width:50%">
+  <img class="mySlides" src="http://cdn2.singlemoms.org/wp-content/uploads/2016/03/TCL-Child-Care4-jpg-800x0-c-default.jpg" style="width:50%">
+  <img class="mySlides" src="http://scrubbing.in/wp-content/uploads/2014/02/malnourishment.png" style="width:50%">
+
+  <button class="display-left" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="display-right" onclick="plusDivs(1)">&#10095;</button>
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+<h3>★ What is "com-rise ?</h3>
+<p></p>
+</html>

@@ -1,0 +1,24 @@
+ body{background-attachment:fixed; 
+ 	 background-repeat: no-repeat; }
+
+h1{ font-family: 'Amatic SC', cursive;
+    text-align: center; 
+    font-size:100px;
+    margin-bottom:12px;
+    color:white; 
+}
+h2{
+	font-family: 'Kaushan Script', cursive; 
+    text-align: center;
+    font-size:35px;
+    color:white;
+}
+img{ text-align: center; margin: auto
+
+}
+h3{font-family: 'Philosopher', sans-serif; margin-left: 50px; font-size:25px;
+color:white;
+}
+.display-container{
+	text-align: center
+}
