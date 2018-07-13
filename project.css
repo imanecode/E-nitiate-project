@@ -1,6 +1,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	font-family: 'Montserrat', sans-serif;
 }
 .side{
 	list-style-type: none;
@@ -10,7 +11,10 @@
     width: 100%;
 
 }
-li{
+
+	
+
+.side li{
 	float: left;
 	padding-left: 0px;
 	list-style-type: none;
@@ -38,11 +42,18 @@ body{background: url(https://images.unsplash.com/photo-1493689485253-f07fcbfc731
     background-size: 100%;
 
 }
-.mk h1{font-family: 'Amatic SC', cursive; color:purple; text-align:center; font-size: 70px
+.mk h1{
+	font-family: 'Amatic SC', cursive; color:purple; text-align:center; font-size: 70px
 }
-p{font-size:20px;font-family: 'Open Sans Condensed', sans-serif;text-align:center}
+.aboutus h1 {
+	font-family: 'Amatic SC', cursive; color:purple; text-align:center; font-size: 70px
+}
+.htuapp h1 {
+	font-family: 'Amatic SC', cursive; color:purple; text-align:center; font-size: 70px
 
-.mk{;
+}
+.mk{
+font-size: 25px;
 margin-top:500px;
 
 }
@@ -50,41 +61,11 @@ margin-top:500px;
 	background-color:white;
 }
 
-
-.mk img:hover{
-	transform: translateY(-30px);
-	-webkit-transition:1s;
-     margin-top:20px;
-}
 #nav{
 	float: right;
+	margin-top: 50px;
 }
-.aboutus h1{ text-align: center;
-	         font-family: 'Amatic SC', cursive; 
-	         color:purple;
-	         text-align:center; 
-	         font-size: 70px;
 
-}
-.aboutus h3{font-family: 'Ubuntu Condensed', sans-serif;color:darkblue;font-size:20px; 
-
-}
-.aboutus img{width:30px;height:30px;
-
-}
-.aboutus h3{ margin-left:15px;
-
-}
-.htuapp h1{font-family: 'Amatic SC', cursive;
-           color:purple;
-  		   text-align:center; 
-  		   font-size: 70px
- }
- .htuapp h3{color:#B4045F;
-
- }
-
- 
 .image{
     width:35%;
     margin:1.66%;
@@ -109,9 +90,13 @@ margin-top:500px;
 
 }
 .footer {
-    height: 50px;
+    height: 70px;
     background: #512da8;
-    color: white;
+    color: black;
     line-height: 50px;
     padding: 0 20px;
+    font-size: 20px
+}
+.align-text {
+	margin-left: 20px;
 }
